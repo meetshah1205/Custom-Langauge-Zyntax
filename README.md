@@ -1,5 +1,10 @@
 # Zyntax (`.zx`)
 ![zyntax-logo](assets/zyntax.webp)
+
+# Pre-requisites
+- Python (i use 3.13 but idk).
+- VSCode (recommended)
+
 # What is an interpreter?
 It is a program that reads and executes our code line by line.
 
@@ -336,10 +341,29 @@ while program[pc] != "HALT":
             pc += 1
 ```
 
-Now its time for testing.
+# Installation and usage
+- Make sure you have the pre-requisites
+- Clone the repository:
+```shell
+git clone https://github.com/meetshah1205/Custom-Langauge-Zyntax.git
+```
+- Create files
+It did in the examples folder, but you can anywhere as long as the interpreter can find the path.
 
-Run the command:
+- Run the interpreter
 ```shell
 python interpreter.py path/to/your/file.zx
 ```
 
+# Keywords (in simpler language)
+*`READ`* : Take input from the user
+
+*`PRINT`* : Print something to the console.
+
+*`PUSH`* : Sort of like variables in other langauges
+
+*`POP` : Again sort of like variables
+
+*`ADD`* : Addition operation
+
+*`SUB`* " Subtraction operation
