@@ -348,7 +348,8 @@ while program[pc] != "HALT":
 git clone https://github.com/meetshah1205/Custom-Langauge-Zyntax.git
 ```
 - Create files
-It did in the examples folder, but you can anywhere as long as the interpreter can find the path.
+
+I did in the examples folder, but you can anywhere as long as the interpreter can find the path.
 
 - Run the interpreter
 ```shell
